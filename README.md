@@ -1,1 +1,1 @@
-**[Go to the website](LongCTygo.github.io)**
+**[Go to the website](https://longctygo.github.io/)**
