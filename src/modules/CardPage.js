@@ -62,6 +62,10 @@ const CardPage = () => {
     getWikiText();
   }, [cardName]);
 
+  useEffect(() => {
+    document.title = cardName.length > 0 ? cardName : "Loading...";
+  }, [cardName]);
+
   //Sets
   useEffect(() => {
     if (wikiText.length === 0) {
@@ -69,7 +73,7 @@ const CardPage = () => {
     }
     console.log(wikiText);
     //Get all sets
-    const sets = [...wikiText.matchAll("[A-Z0-9]{3,4}-JP\\d{3}")];
+    const sets = [...wikiText.matchAll("[A-Z0-9]{3,4}-JP[A-Z0-9]{3}")];
     const allPrices = [];
     for (const key in sets) {
       const set = sets[key];
@@ -107,12 +111,25 @@ const CardPage = () => {
             <div className="mt-4">
               <h2 className="text-xl font-bold">{card.name}</h2>
               <CardInfo card={card} />
-              <p className="text-neutral-content">{card.desc}</p>
+              {card.desc === undefined
+                ? ""
+                : card.desc
+                    .split("\n")
+                    .map((line) => (
+                      <p className="text-primary">{line}</p>
+                    ))}
             </div>
           </div>
         </div>
         <div className="md:col-span-1">
-          <table className="w-full text-center border-collapse border border-gray-300">
+          <h1 className="text-2xl text-center font-bold mb-4">
+            Bigweb (
+            <a className="text-secondary" href="https://bigweb.co.jp">
+              bigweb.co.jp
+            </a>
+            )
+          </h1>
+          <table className="w-full text-center border-collapse border table">
             <thead>
               <tr>
                 <th className="border p-2">Set Number</th>

@@ -63,21 +63,24 @@ const CardNumberPriceRow = ({ price }) => {
 
   if (count === -1) {
     return (
-      <tr key={price.cardNumber}>
-        <td className="border border-gray-300 p-2 text-secondary">
+      <tr key={price.cardNumber} className="hover">
+        <td className="border p-2 text-secondary">
           <a
+            className="link link-hover"
+            target="_blank"
+            rel="noopener noreferrer"
             href={`https://bigweb.co.jp/ja/products/yugioh/list?name=${price.cardNumber}&is_box=0&is_supply=0&is_purchase=0`}
           >
             {price.cardNumber}
           </a>
         </td>
-        <td className="border border-gray-300 p-2">
+        <td className="border p-2">
           <span className="loading loading-dots loading-sm"></span>
         </td>
-        <td className="border border-gray-300 p-2">
+        <td className="border p-2">
           <span className="loading loading-dots loading-sm"></span>
         </td>
-        <td className="border border-gray-300 p-2">
+        <td className="border p-2">
           <span className="loading loading-dots loading-sm"></span>
         </td>
       </tr>
@@ -86,15 +89,17 @@ const CardNumberPriceRow = ({ price }) => {
 
   if (failed) {
     return (
-      <tr key={price.cardNumber}>
-        <td className="border border-gray-300 p-2 text-secondary">
+      <tr key={price.cardNumber} className="hover">
+        <td className="border p-2 text-secondary">
           <a
+            target="_blank"
+            rel="noopener noreferrer"
             href={`https://bigweb.co.jp/ja/products/yugioh/list?name=${price.cardNumber}&is_box=0&is_supply=0&is_purchase=0`}
           >
             {price.cardNumber}
           </a>
         </td>
-        <td colSpan="3" className="border border-gray-300 text-error p-2">
+        <td colSpan="3" className="border text-error p-2">
           An error occured
         </td>
       </tr>
@@ -102,15 +107,17 @@ const CardNumberPriceRow = ({ price }) => {
   }
   if (count === 0) {
     return (
-      <tr key={price.cardNumber}>
-        <td className="border border-gray-300 p-2 text-secondary">
+      <tr key={price.cardNumber} className="hover">
+        <td className="border p-2 text-secondary">
           <a
+            target="_blank"
+            rel="noopener noreferrer"
             href={`https://bigweb.co.jp/ja/products/yugioh/list?name=${price.cardNumber}&is_box=0&is_supply=0&is_purchase=0`}
           >
             {price.cardNumber}
           </a>
         </td>
-        <td colSpan="3" className="border border-gray-300 text-error p-2">
+        <td colSpan="3" className="border text-error p-2">
           Out of stock
         </td>
       </tr>
@@ -118,17 +125,17 @@ const CardNumberPriceRow = ({ price }) => {
   }
 
   return (
-    <tr key={price.cardNumber}>
-      <td className="border border-gray-300 p-2 text-secondary">
+    <tr key={price.cardNumber} className="hover">
+      <td className="border p-2 text-secondary">
         <a
           href={`https://bigweb.co.jp/ja/products/yugioh/list?name=${price.cardNumber}&is_box=0&is_supply=0&is_purchase=0`}
         >
           {price.cardNumber}
         </a>
       </td>
-      <td className="border border-gray-300 p-2">{lowest}円</td>
-      <td className="border border-gray-300 p-2">{highest}円</td>
-      <td className="border border-gray-300 p-2">{average}円</td>
+      <td className="border p-2">{lowest}円</td>
+      <td className="border p-2">{highest}円</td>
+      <td className="border p-2">{average}円</td>
     </tr>
   );
 };

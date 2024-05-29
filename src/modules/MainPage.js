@@ -1,11 +1,27 @@
-import { Link } from "react-router-dom"
+import { useEffect } from "react";
+import { Link } from "react-router-dom";
 
 const MainPage = () => {
-    return (
-        <div>
-            <Link to="/jp-price" className="btn btn-primary mx-4 my-2">Get Price</Link>
-        </div>
-    )
-}
+  useEffect(() => {
+    document.title = "LongCT_'s Toolbox";
+  }, []);
 
-export default MainPage
+  return (
+    <div className="mx-2">
+      <p className="text-lg mb-4">
+        Hello, welcome to my toolbox. I store all of my tools here.
+      </p>
+      <p className="text-lg mb-2">Tools:</p>
+      <ul className="list-disc pl-6">
+        <li>
+          <Link to="/jp-price" className="text-primary">
+            Get Card Price
+          </Link>
+        </li>
+        {/* Add more tools as needed */}
+      </ul>
+    </div>
+  );
+};
+
+export default MainPage;

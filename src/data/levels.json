@@ -1,0 +1,134 @@
+{
+    "LTS9LTY1G": {
+        "levelName": "♪ Yukopi - 強風オールバック ♪",
+        "worldLevelName": "Level 1-Castle",
+        "links": {
+            "songYoutube": "https://youtu.be/D6DVTLvOupE",
+            "songSpotify": "https://open.spotify.com/track/3rO7YwtuTzCGssxvDS4xK2",
+            "clearVideo": null
+        },
+        "levelInfo": {
+            "style": "New Super Mario Bros. U",
+            "theme": "Underground | Underground",
+            "optional": 0,
+            "teamMusic": true,
+            "gimmick": "Traditional"
+        },
+        "commentary": [
+            "I was gonna make this level windy, but I opted out of it. Mostly because I couldn't think of anything creative (trust me, I would make this level windy if there were anything I can think of).",
+            "A NSMBU level, the only one, actually. The theme is VERY loud and making music levels on that theme is usually inferior compared to making them on the first 3 themes, and most ideas for a gimmick for a level usually can be also replicated in the other themes too. Not wanting to make a wall-jump/ground-pound cancel level, I decided to make this 'easy', running through the level 'traditional-style'. NSMBU is perfect for a Traditional level, and Underground is such a beautiful course theme.",
+            "The level's song is stupid, I love it. This is the first level I make using 3 tiles per beat, and my gosh is it a pain to do all the notes this way. But the end product came out great!"
+        ],
+        "spoilers": [
+            {
+                "name": "Top of the Flagpole",
+                "hint": null,
+                "content": "Either triple jump onto the mushroom platform, or jump on the base of the flagpole and running-jump onto it."
+            }
+        ]
+    },
+    "M4KHW47VF": {
+        "levelName": "♪ ABBA - Money, Money, Money ♪",
+        "worldLevelName": "Level 2-1",
+        "links": {
+            "songYoutube": "https://youtu.be/ETxmCCsMoD0",
+            "songSpotify": "https://open.spotify.com/track/29FNeqjOV2kPWGS55qhtGB",
+            "clearVideo": null
+        },
+        "levelInfo": {
+            "style": "Super Mario Bros. 1",
+            "theme": "Ground | Ground",
+            "optional": 0,
+            "teamMusic": false,
+            "gimmick": "Coin Collectathon"
+        },
+        "commentary": [
+            "I'm using this level to announce that I am broke."
+        ],
+        "spoilers": [
+            {
+                "name": "Top of the Flagpole / True Ending",
+                "hint": "What's that keydoor near the flagpole there?",
+                "content": "Grab all red coins and enter the keydoor at the end. You must complete the objectives AND have all the coins on the first go to grab the top."
+            }
+        ]
+    },
+    "914QY5KWF": {
+        "levelName": "♪ Toadette The First ♪",
+        "worldLevelName": "Level 2-2",
+        "links": {
+            "songYoutube": "https://youtu.be/5XDG75LPXqE",
+            "songSpotify": "https://open.spotify.com/track/3dfpZwSuosIuFqksY0F6gT",
+            "clearVideo": null
+        },
+        "levelInfo": {
+            "style": "Super Mario Bros. 3",
+            "theme": "Ground | Ground",
+            "optional": 0,
+            "teamMusic": false,
+            "gimmick": "Platforming"
+        },
+        "commentary": [
+            "Why did I make this? I guess it's because of the weather."
+        ],
+        "spoilers": [
+            {
+                "name": "True Ending",
+                "hint": "I put an anti-keydeath at then end.",
+                "content": "Go to the Level Viewer and find all of the red coins."
+            }
+        ]
+    },
+    "W34RPF4PF": {
+        "levelName": "♪ Wrecking Ball - Miley Cyrus ♪",
+        "worldLevelName": "Level 2-X",
+        "links": {
+            "songYoutube": "https://youtu.be/5XDG75LPXqE",
+            "songSpotify": "https://youtu.be/-YICuUtkjlg",
+            "clearVideo": null
+        },
+        "levelInfo": {
+            "style": "Super Mario World",
+            "theme": "Ground | Ground",
+            "optional": 1,
+            "teamMusic": false,
+            "gimmick": "Balls"
+        },
+        "commentary": [
+            "If you hate my music levels then blame this one. This is my first."
+        ],
+        "spoilers": [
+            {
+                "name": "True Ending / Music Door",
+                "hint": "The pipe at the end poops out a spring.",
+                "content": "There's a spot at the end of the subworld where you can jump up with a mid-air spring jump."
+            }
+        ]
+    },
+    "WQL46S3PG": {
+        "levelName": "♪ Mario Grazes The Roof ♪ #TJ",
+        "worldLevelName": "Level 2-Airship",
+        "links": {
+            "songYoutube": "https://youtu.be/iJau-PGwYSk",
+            "songSpotify": "https://open.spotify.com/track/78sRnSDYbNMAcAh6lX1yG6",
+            "clearVideo": null
+        },
+        "levelInfo": {
+            "style": "Super Mario Bros. 1",
+            "theme": "Airship | Airship",
+            "optional": 0,
+            "teamMusic": false,
+            "gimmick": "Buzzy Beetles"
+        },
+        "commentary": [
+            "Holy Buzzy!"
+        ],
+        "spoilers": [
+            {
+                "name": "True Ending",
+                "hint": "Pick-a-door",
+                "content": "The left door in the boss room."
+            }
+        ]
+    }
+}
