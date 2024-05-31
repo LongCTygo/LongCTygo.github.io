@@ -6,23 +6,26 @@ import SearchModule from "./modules/SearchModule";
 import Navbar from "./partials/Navbar";
 import SuperWorldLevel from "./modules/SuperWorldLevel";
 import Footer from "./partials/Footer";
+import SuperWorldLandingPage from "./modules/SuperWorldLandingPage";
 
 function App() {
   return (
-    <div>
+    <div className="min-h-screen">
       <HashRouter>
         <Navbar />
+        <div className="">
         <Routes>
           <Route exact path="/" element={<MainPage />}></Route>
           <Route exact path="/jp-price" element={<SearchModule />}></Route>
           <Route
             exact
             path="/jp-price/:password"
-            element={<CardPage />}
-          ></Route>
+            element={<CardPage />}></Route>
+          <Route exact path="/smm2/super_world" element={<SuperWorldLandingPage/>}></Route>
           <Route exact path="/smm2/super_world/:id" element={<SuperWorldLevel/> }></Route>
         </Routes>
-        <Footer/>
+        </div>
+        <Footer className="sticky top-full"/>
       </HashRouter>
     </div>
   );

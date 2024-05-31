@@ -2,6 +2,7 @@ import axios from "axios";
 import React, { useEffect, useState } from "react";
 import { Link } from "react-router-dom";
 import CardNameRow from "../partials/CardNameRow";
+import { Helmet } from "react-helmet";
 
 const SearchModule = () => {
   const [searchQuery, setSearchQuery] = useState("");
@@ -56,7 +57,6 @@ const SearchModule = () => {
   };
 
   useEffect(() => {
-    document.title = "Search Card Database";
     if (localStorage.getItem("searchQuery") !== null){
       setSearchQuery(localStorage.getItem("searchQuery"))
       if (localStorage.getItem("data") === null ){
@@ -75,6 +75,9 @@ const SearchModule = () => {
 
   return (
     <div className="flex flex-col items-center p-4">
+      <Helmet>
+        <title>Search Card Database</title>
+      </Helmet>
       <h1 className="text-4xl font-bold mb-4">Search Database</h1>
       <div className="mb-4 flex w-full md:w-2/3">
         <div className="flex-grow mx-2">
