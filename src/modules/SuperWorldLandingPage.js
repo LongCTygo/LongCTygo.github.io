@@ -44,7 +44,7 @@ const SuperWorldLandingPage = () => {
       <div className="card w-full overflow-x-auto bg-base-200 mt-4 mb-4 p-4">
         <h1 className="text-4xl font-bold mb-5">World 1</h1>
         <div className="flex space-x-5">
-          <LevelCard levelCode="LM6TM7VKF" levelName="NOT AVAILABLE YET" />
+          <LevelCard levelCode="000000000" levelName="[Intro Auto Level]" />
           <LevelCard levelCode="B5BBNCX8G" levelName="♪ Polish Cow-vern ♪" />
           <LevelCard
             levelCode="34TT0FXJF"
@@ -119,18 +119,18 @@ const SuperWorldLandingPage = () => {
           <LevelCard levelCode="GYY2T37XG" levelName="♪ Bad Romance - Lady Gaga ♪" />
           <LevelCard levelCode="YRQNB3NWG" levelName="♪Moonlight Densetsu 「ムーンライト伝説」♪" />
           <LevelCard levelCode="SJNJCRFHG" levelName="♪ Call Me Maybe ♪ #TS #TM" optional/>
-          <LevelCard levelCode="LM6TM7VKF" levelName="NOT AVAILABLE YET" />
-          <LevelCard levelCode="LM6TM7VKF" levelName="NOT AVAILABLE YET" />
+          <LevelCard levelCode="000000000" levelName="[Boss Interlude]" />
+          <LevelCard levelCode="000000000" levelName="[Boss]" />
         </div>
       </div>
       <div className="card w-full overflow-x-auto bg-base-200 mt-4 mb-4 p-4 ">
         <h1 className="text-4xl font-bold mb-5">World 7</h1>
         <div className="flex space-x-5 ">
         <LevelCard levelCode="NGLYXB1SF" levelName="♪ Happy Birthday ♪ #TM" optional/>
-        <LevelCard levelCode="LM6TM7VKF" levelName="NOT AVAILABLE YET" />
-        <LevelCard levelCode="LM6TM7VKF" levelName="NOT AVAILABLE YET" />
-        <LevelCard levelCode="LM6TM7VKF" levelName="NOT AVAILABLE YET" />
-        <LevelCard levelCode="LM6TM7VKF" levelName="NOT AVAILABLE YET" />
+        <LevelCard levelCode="000000000" levelName="[Troll Level]" />
+        <LevelCard levelCode="000000000" levelName="[This Level Is On TeamMusic]" />
+        <LevelCard levelCode="XGX-15P-DJF" levelName="♪ Time Flows Ever Onward ♪" />
+        <LevelCard levelCode="000000000" levelName="[Credits Level]" />
         </div>
       </div>
       </div>
