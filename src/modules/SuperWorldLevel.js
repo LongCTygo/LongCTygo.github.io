@@ -74,6 +74,16 @@ const SuperWorldLevel = () => {
             View on Wizulus's viewer
           </a>
         </div>
+        <div className="pt-2">
+          <a
+            className="btn btn-primary"
+            target="_blank"
+            rel="noreferrer"
+            href={level.links.meme}
+          >
+            Click for Funny video
+          </a>
+        </div>
       </div>
       <div className="divider"></div>
       <div className="mr-20 ml-20">
@@ -113,7 +123,7 @@ const SuperWorldLevel = () => {
       <div className="divider"></div>
       <div className="mr-20 ml-20">
         <h2 className="text-2xl font-bold text-center">Spoilers</h2>
-        {level.spoilers.map((spoiler) => (
+        {level.spoilers.length > 0 && level.spoilers.map((spoiler) => (
           <div>
             <h3 className="text-xl font-bold pb-3">{spoiler.name}</h3>
             {spoiler.hint && (
@@ -128,6 +138,7 @@ const SuperWorldLevel = () => {
             </details>
           </div>
         ))}
+        {level.spoilers.length === 0 && (<p>There are no spoilers. Or are there?</p>)}
       </div>
     </div>
   );

@@ -1,0 +1,337 @@
+{
+    "levels": [
+        {
+            "id": "1-1",
+            "code": "",
+            "name": "♪TMW♪ 1-1 but it's #TeamMusic!",
+            "makers": [""],
+            "track_name": "Super Mario Bros - Overworld Theme",
+            "genre": "Video Game Music",
+            "yt_link": ""
+        },
+        {
+            "id": "1-2",
+            "code": "",
+            "name": "♪TMW♪ Kai Highway: Mystical Ninja",
+            "makers": [""],
+            "track_name": "Mystical Ninja Starring Goemon - Kai Highway",
+            "genre": "Video Game Music",
+            "yt_link": ""
+        },
+        {
+            "id": "1-3",
+            "code": "",
+            "name": "♪TMW♪ Metal Cap Maze",
+            "makers": [""],
+            "track_name": "Super Mario 64 - Metallic Mario",
+            "genre": "Video Game Music",
+            "yt_link": ""
+        },
+        {
+            "id": "1-4",
+            "code": "",
+            "name": "♪TMW♪ In the End",
+            "makers": [""],
+            "track_name": "In The End - Linkin Park",
+            "genre": "Rock / Nu Metal",
+            "yt_link": ""
+        },
+        {
+            "id": "1-5",
+            "code": "",
+            "name": "",
+            "makers": [""],
+            "track_name": "Contra (NES) Music - Jungle Theme",
+            "genre": "Video Game Music",
+            "yt_link": ""
+        },
+        {
+            "id": "2-1",
+            "code": "",
+            "name": "",
+            "makers": [""],
+            "track_name": "Wham! - Everything She Wants (Remix)",
+            "genre": "Pop / Dance",
+            "yt_link": ""
+        },
+        {
+            "id": "2-2",
+            "code": "",
+            "name": "",
+            "makers": [""],
+            "track_name": "Mega Man 2 (NES) Music - Wood Man Stage",
+            "genre": "Video Game Music",
+            "yt_link": ""
+        },
+        {
+            "id": "2-3",
+            "code": "",
+            "name": "",
+            "makers": [""],
+            "track_name": "Quackshot Music - Duckburg",
+            "genre": "Video Game Music",
+            "yt_link": ""
+        },
+        {
+            "id": "2-4",
+            "code": "",
+            "name": "",
+            "makers": [""],
+            "track_name": "Blaster Master (NES) Music - Area 1",
+            "genre": "Video Game Music",
+            "yt_link": ""
+        },
+        {
+            "id": "2-5",
+            "code": "",
+            "name": "",
+            "makers": [""],
+            "track_name": "Castlevania Sound Team - Wandering Ghosts",
+            "genre": "Video Game Music",
+            "yt_link": ""
+        },
+        {
+            "id": "3-1",
+            "code": "",
+            "name": "",
+            "makers": [""],
+            "track_name": "CASIOPEA - Asayake",
+            "genre": "Jazz Fusion",
+            "yt_link": ""
+        },
+        {
+            "id": "3-2",
+            "code": "",
+            "name": "",
+            "makers": [""],
+            "track_name": "Los peces en el rio",
+            "genre": "Traditional / Holiday",
+            "yt_link": ""
+        },
+        {
+            "id": "3-3",
+            "code": "",
+            "name": "",
+            "makers": [""],
+            "track_name": "Super Mario Bros. 3 - World Map 2: Desert Land Theme",
+            "genre": "Video Game Music",
+            "yt_link": ""
+        },
+        {
+            "id": "3-4",
+            "code": "",
+            "name": "",
+            "makers": [""],
+            "track_name": "Super Mario Land - Ruins",
+            "genre": "Video Game Music",
+            "yt_link": ""
+        },
+        {
+            "id": "3-5",
+            "code": "",
+            "name": "",
+            "makers": [""],
+            "track_name": "Kirby 64: The Crystal Shards - Factory Inspection",
+            "genre": "Video Game Music",
+            "yt_link": ""
+        },
+        {
+            "id": "4-1",
+            "code": "",
+            "name": "",
+            "makers": [""],
+            "track_name": "Pokemon Blue/Red - Cerulean City",
+            "genre": "Video Game Music",
+            "yt_link": ""
+        },
+        {
+            "id": "4-2",
+            "code": "",
+            "name": "",
+            "makers": [""],
+            "track_name": "Dusty Dune Galaxy - Super Mario Galaxy",
+            "genre": "Video Game Music",
+            "yt_link": ""
+        },
+        {
+            "id": "4-3",
+            "code": "",
+            "name": "",
+            "makers": [""],
+            "track_name": "Adventure Time - Island Song",
+            "genre": "Indie / Folk",
+            "yt_link": ""
+        },
+        {
+            "id": "4-4",
+            "code": "",
+            "name": "",
+            "makers": [""],
+            "track_name": "Regurgitator - Polyester Girl",
+            "genre": "Alternative Rock",
+            "yt_link": ""
+        },
+        {
+            "id": "4-5",
+            "code": "",
+            "name": "",
+            "makers": [""],
+            "track_name": "The Sugarhill Gang - Rapper's Delight",
+            "genre": "Hip Hop",
+            "yt_link": ""
+        },
+        {
+            "id": "5-1",
+            "code": "",
+            "name": "",
+            "makers": [""],
+            "track_name": "Scooby Doo Theme Tune",
+            "genre": "TV Theme Song",
+            "yt_link": ""
+        },
+        {
+            "id": "5-2",
+            "code": "",
+            "name": "",
+            "makers": [""],
+            "track_name": "Megaman 10 OST: Nitro Rider - Nitro Man Theme",
+            "genre": "Video Game Music",
+            "yt_link": ""
+        },
+        {
+            "id": "5-3",
+            "code": "",
+            "name": "",
+            "makers": [""],
+            "track_name": "Talking Heads - Psycho Killer",
+            "genre": "New Wave / Rock",
+            "yt_link": ""
+        },
+        {
+            "id": "5-4",
+            "code": "",
+            "name": "",
+            "makers": [""],
+            "track_name": "Super Mario World - Vanilla Dome music",
+            "genre": "Video Game Music",
+            "yt_link": ""
+        },
+        {
+            "id": "5-5",
+            "code": "",
+            "name": "",
+            "makers": [""],
+            "track_name": "[OST] Super Mario Maker - Title Screen",
+            "genre": "Video Game Music",
+            "yt_link": ""
+        },
+        {
+            "id": "6-1",
+            "code": "",
+            "name": "",
+            "makers": [""],
+            "track_name": "Super Mario 64 - Piranha Plant Sleeping Music",
+            "genre": "Video Game Music",
+            "yt_link": ""
+        },
+        {
+            "id": "6-2",
+            "code": "",
+            "name": "",
+            "makers": [""],
+            "track_name": "BRODYQUEST",
+            "genre": "Electronic",
+            "yt_link": ""
+        },
+        {
+            "id": "6-3",
+            "code": "",
+            "name": "",
+            "makers": [""],
+            "track_name": "Ol' Dirty Bastard ft. Kelis - Got Your Money",
+            "genre": "Hip Hop",
+            "yt_link": ""
+        },
+        {
+            "id": "6-4",
+            "code": "",
+            "name": "",
+            "makers": [""],
+            "track_name": "Marilyn Manson - The Beautiful People",
+            "genre": "Industrial Rock",
+            "yt_link": ""
+        },
+        {
+            "id": "6-5",
+            "code": "",
+            "name": "",
+            "makers": [""],
+            "track_name": "Run, Jump, Throw! 2 - Super Mario Odyssey Music",
+            "genre": "Video Game Music",
+            "yt_link": ""
+        },
+        {
+            "id": "7-1",
+            "code": "",
+            "name": "",
+            "makers": [""],
+            "track_name": "Masayuki Suzuki - Love Dramatic",
+            "genre": "J-Pop / Anime",
+            "yt_link": ""
+        },
+        {
+            "id": "7-2",
+            "code": "",
+            "name": "",
+            "makers": [""],
+            "track_name": "Super Mario Bros. 3 - World Map 7: Pipe Maze Theme",
+            "genre": "Video Game Music",
+            "yt_link": ""
+        },
+        {
+            "id": "7-3",
+            "code": "",
+            "name": "",
+            "makers": [""],
+            "track_name": "'Splendido!' from The Price Is Right 1976",
+            "genre": "TV Show Soundtrack",
+            "yt_link": ""
+        },
+        {
+            "id": "7-4",
+            "code": "",
+            "name": "",
+            "makers": [""],
+            "track_name": "Chainsaw Man Ending - Vaundy 'CHAINSAW BLOOD'",
+            "genre": "J-Pop / Anime",
+            "yt_link": ""
+        },
+        {
+            "id": "7-5",
+            "code": "",
+            "name": "",
+            "makers": [""],
+            "track_name": "Legend of Mana - Pain the Universe",
+            "genre": "Video Game Music",
+            "yt_link": ""
+        },
+        {
+            "id": "8-1",
+            "code": "",
+            "name": "",
+            "makers": [""],
+            "track_name": "Super Mario Brothers 3 (NES) Ending",
+            "genre": "Video Game Music",
+            "yt_link": ""
+        },
+        {
+            "id": "8-2",
+            "code": "",
+            "name": "",
+            "makers": [""],
+            "track_name": "Boss Battle 2 - Chrono Trigger 2",
+            "genre": "Video Game Music",
+            "yt_link": ""
+        }
+    ]
+}

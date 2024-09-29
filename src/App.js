@@ -7,6 +7,7 @@ import Navbar from "./partials/Navbar";
 import SuperWorldLevel from "./modules/SuperWorldLevel";
 import Footer from "./partials/Footer";
 import SuperWorldLandingPage from "./modules/SuperWorldLandingPage";
+import SuperTeamMusicWorld from "./modules/SuperTeamMusicWorld";
 
 function App() {
   return (
@@ -23,6 +24,7 @@ function App() {
             element={<CardPage />}></Route>
           <Route exact path="/smm2/super_world" element={<SuperWorldLandingPage/>}></Route>
           <Route exact path="/smm2/super_world/:id" element={<SuperWorldLevel/> }></Route>
+          <Route exact path="/smm2/stmw" element={<SuperTeamMusicWorld/> }></Route>
         </Routes>
         </div>
         <Footer className="sticky top-full"/>

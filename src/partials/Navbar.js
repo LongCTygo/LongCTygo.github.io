@@ -36,6 +36,9 @@ const Navbar = () => {
             <li>
               <Link to="/smm2/super_world">Super LongCT_'s Music World</Link>
             </li>
+            <li>
+              <Link to="/smm2/stmw">Super #TeamMusic World</Link>
+            </li>
           </ul>
         </div>
         <Link to="/" className="btn btn-ghost text-xl">
@@ -49,6 +52,9 @@ const Navbar = () => {
           </li>
           <li className="h-full">
               <Link to="/smm2/super_world">Super LongCT_'s Music World</Link>
+            </li>
+            <li className="h-full">
+              <Link to="/smm2/stmw">Super #TeamMusic World</Link>
             </li>
         </ul>
       </div>

@@ -1,11 +1,70 @@
 {
+    "B5NM4QSDF": {
+        "levelName": "♪ GEMN - Fatale 「【推しの子】 OP2」 ♪",
+        "worldLevelName": "Level 1-2",
+        "links": {
+            "songYoutube": "https://youtu.be/8tQiWHXSGN0",
+            "songSpotify": "https://open.spotify.com/track/7gJD9BarjoFwL2BNQ0rpWT",
+            "clearVideo": null,
+            "meme": "https://youtu.be/jgM4GSiTqjU"
+        },
+        "levelInfo": {
+            "style": "Super Mario Bros. 3",
+            "theme": "Ghost House | Ghost House",
+            "optional": 0,
+            "teamMusic": true,
+            "gimmick": "Basic Platforming"
+        },
+        "commentary": [
+            "Sasuga, Aqua-san.",
+            "This level is very basic, as such it is kinda bland. It is also very easy. Not automatic, but simple enough that everyone should be able to navigate through.",
+            "The song is the 2nd Opening of Oshi no Ko, a show I really like. I like it enough to make the level within the day of the intro premier. Only the chorus though, I feel like I can only fit that in. (Either that or I'm too lazy as usual)"
+        ],
+        "spoilers": [
+            {
+                "name": "Episode 1",
+                "hint": "This is literally the spoiler for the 1st episode of the show. If you aren't aware of it DO NOT open the spoiler.",
+                "content": "Ai died."
+            }
+        ]
+    },
+    "F2BWG7C1G": {
+        "levelName": "♪ Dua Lipa - Hallucinate ♪",
+        "worldLevelName": "Level 1-Extra",
+        "links": {
+            "songYoutube": "https://youtu.be/qcZ7e9EOQTY",
+            "songSpotify": "https://open.spotify.com/track/1nYeVF5vIBxMxfPoL0SIWg",
+            "clearVideo": null,
+            "meme": "https://youtu.be/Hc-bqOcqifQ"
+        },
+        "levelInfo": {
+            "style": "Super Mario Bros. 3",
+            "theme": "Night Ground | Night Ground",
+            "optional": 1,
+            "teamMusic": true,
+            "gimmick": "Sugar, Spice & Anything Nice"
+        },
+        "commentary": [
+            "DULA PEEP HAS DONE IT AGAIN!!!",
+            "Welcome to the first optional level. The optional levels are harder than the other levels, often time requires more advanced technique. This level is the easiest of the bunch, featuring no advanced trick but requires you to go fast and precise. Beating an optional level gives you an extra Toad House and bragging rights. (They're also required to 100% the Super World.)",
+            "I was going to make another Dua Lipa song at first (Levitating), but I like this one more. Fits the theme more, for Levitating I want a low-gravity level."
+        ],
+        "spoilers": [
+            {
+                "name": "Secrets",
+                "hint": "There's a keydoor at the very end. There's also a shell at the end of the subworld...",
+                "content": "Get all of the red coins, one of them is at the end of the subworld, which requires a shell jump."
+            }
+        ]
+    },
     "LTS9LTY1G": {
         "levelName": "♪ Yukopi - 強風オールバック ♪",
         "worldLevelName": "Level 1-Castle",
         "links": {
             "songYoutube": "https://youtu.be/D6DVTLvOupE",
             "songSpotify": "https://open.spotify.com/track/3rO7YwtuTzCGssxvDS4xK2",
-            "clearVideo": null
+            "clearVideo": null,
+            "meme": null
         },
         "levelInfo": {
             "style": "New Super Mario Bros. U",
@@ -33,7 +92,8 @@
         "links": {
             "songYoutube": "https://youtu.be/ETxmCCsMoD0",
             "songSpotify": "https://open.spotify.com/track/29FNeqjOV2kPWGS55qhtGB",
-            "clearVideo": null
+            "clearVideo": null,
+            "meme": null
         },
         "levelInfo": {
             "style": "Super Mario Bros. 1",
@@ -43,7 +103,10 @@
             "gimmick": "Coin Collectathon"
         },
         "commentary": [
-            "I'm using this level to announce that I am broke."
+            "Hehe 420 coins PepeLaugh",
+            "This was going to be the very first level of the Super World, before I decided that there should be an easier world to ease the player in. The gimmick is simple, get coins. There are an abundant of coins in the level that you don't have to afraid of not getting enough. The red coins are evil, though.",
+            "I don't actually know that many classics by ABBA, but this one is my favorite since I was young. I have not seen anyone making this song into Mario Maker, so I decided, why not?",
+            "Leaderboard: Most Coins Collected - 660 by me."
         ],
         "spoilers": [
             {
@@ -59,17 +122,18 @@
         "links": {
             "songYoutube": "https://youtu.be/5XDG75LPXqE",
             "songSpotify": "https://open.spotify.com/track/3dfpZwSuosIuFqksY0F6gT",
-            "clearVideo": null
+            "clearVideo": null,
+            "meme": null
         },
         "levelInfo": {
             "style": "Super Mario Bros. 3",
             "theme": "Ground | Ground",
             "optional": 0,
             "teamMusic": false,
-            "gimmick": "Platforming"
+            "gimmick": "Quick Platforming"
         },
         "commentary": [
-            "Why did I make this? I guess it's because of the weather."
+            "I don't know why I made this. I wish to not comment."
         ],
         "spoilers": [
             {
@@ -85,7 +149,8 @@
         "links": {
             "songYoutube": "https://youtu.be/5XDG75LPXqE",
             "songSpotify": "https://youtu.be/-YICuUtkjlg",
-            "clearVideo": null
+            "clearVideo": null,
+            "meme": null
         },
         "levelInfo": {
             "style": "Super Mario World",
@@ -95,7 +160,9 @@
             "gimmick": "Balls"
         },
         "commentary": [
-            "If you hate my music levels then blame this one. This is my first."
+            "This is my first music level! It's not great, but I want it to be in my World because it has to be.",
+            "As it is my first music level, once I'm done with the music, I don't really know what to have in the level as the challenge. Since the song is Wrecking Ball, I figure it'd jam anything that is a circle in it. That philosophy set up my music level making process for the next 4 years. On-theme, but jank as heck.",
+            "Not sure why I wanted this as my first song for a music level, but the song is indeed a bop, right?"
         ],
         "spoilers": [
             {
@@ -111,23 +178,110 @@
         "links": {
             "songYoutube": "https://youtu.be/iJau-PGwYSk",
             "songSpotify": "https://open.spotify.com/track/78sRnSDYbNMAcAh6lX1yG6",
-            "clearVideo": null
+            "clearVideo": null,
+            "meme": null
         },
         "levelInfo": {
             "style": "Super Mario Bros. 1",
             "theme": "Airship | Airship",
             "optional": 0,
             "teamMusic": false,
-            "gimmick": "Buzzy Beetles"
+            "gimmick": "Buzzy Beetle"
         },
         "commentary": [
-            "Holy Buzzy!"
+            "Still don't understand how a Gargantuan can stand on that roof.",
+            "Welcome to a TeamJamp level! They're a bit tough, but I hope it's not too overly difficult for the final level of the 2nd world. The theme is Buzzy Beetle, which, when they have wings, become solid grounds. Prepare to read indicators, chat. P-blocks means bounce on beetle, coins means you can stand on the beetle to jump off.",
+            "Funny story, I once got punished at primary school for installing Plants vs. Zombies on my school's computer used for Computer Science class."
         ],
         "spoilers": [
             {
                 "name": "True Ending",
                 "hint": "Pick-a-door",
                 "content": "The left door in the boss room."
+            }
+        ]
+    },
+    "82T4TV8QG": {
+        "levelName": "♪ Parks and Recreation ♪ v2",
+        "worldLevelName": "Level 3-1",
+        "links": {
+            "songYoutube": "https://youtu.be/wI7f4CgATiE",
+            "songSpotify": "https://open.spotify.com/track/2dJuJ1e14nf47qtG5CYrr4",
+            "clearVideo": null,
+            "meme": null
+        },
+        "levelInfo": {
+            "style": "Super Mario Bros. 1",
+            "theme": "Forest | Forest",
+            "optional": 0,
+            "teamMusic": true,
+            "gimmick": "Fire Flower | Superball Flower"
+        },
+        "commentary": [
+            "My favorite moment of Parks and Recreation is Andy saying 'KOOPA!'",
+            "The original version of this level is just having very fast-paced fireball shooting sections, which was too hard and the music wasn't great. So I remade it with easier challenges, extends the music, and add the Superball Flower into it.",
+            "To balance the various amount of anime openings coming up soon, have an iconic American sitcom intro."
+        ],
+        "spoilers": [
+            {
+                "name": "Music Relisten",
+                "content": "The door at the end of the level. You can reach it by jumping over the flag."
+            }
+        ]
+    },
+    "45T4NYSKG": {
+        "levelName": "♪ Cake By The Ocean - DNCE ♪",
+        "worldLevelName": "Level 3-2",
+        "links": {
+            "songYoutube": "https://youtu.be/wI7f4CgATiE",
+            "songSpotify": "https://open.spotify.com/track/2dJuJ1e14nf47qtG5CYrr4",
+            "clearVideo": null,
+            "meme": null
+        },
+        "levelInfo": {
+            "style": "Super Mario Bros. 3",
+            "theme": "Underwater | Underwater",
+            "optional": 0,
+            "teamMusic": false,
+            "gimmick": "Frog Suit Swimming"
+        },
+        "commentary": [
+            "Nitendo does not delete music level where the song has a bunch of innuendos confirmed.",
+            "This is my 2nd music level. It does not sounds as good as my 2024 levels, but I still want it in similar to the Wrecking Ball level. The level might be a bit all over the place, but I hope you like it regardless. By the song name, it has to be underwater, right?",
+            "I hope you all are old enough to know what 'cake' actually means."
+        ],
+        "spoilers": [
+            {
+                "name": "Pixel Art",
+                "content": "At the end of the level, find the pipe that leads you to a secret."
+            }
+        ]
+    },
+    "00XD3Q1WF": {
+        "levelName": "♪ Taylor Swift - Lavender Haze ♪",
+        "worldLevelName": "Level 3-X",
+        "links": {
+            "songYoutube": "https://youtu.be/wI7f4CgATiE",
+            "songSpotify": "https://open.spotify.com/track/2dJuJ1e14nf47qtG5CYrr4",
+            "clearVideo": null,
+            "meme": null
+        },
+        "levelInfo": {
+            "style": "Super Mario World",
+            "theme": "Night Forest | Night Forest",
+            "optional": 1,
+            "teamMusic": false,
+            "gimmick": "Bill Blaster Raft"
+        },
+        "commentary": [
+            "Surely this is the only Taylor Swift level. <- Clueless",
+            "This is my 2nd music level. It does not sounds as good as my 2024 levels, but I still want it in similar to the Wrecking Ball level. The level might be a bit all over the place, but I hope you like it regardless. By the song name, it has to be underwater, right?",
+            "I hope you all are old enough to know what 'cake' actually means."
+        ],
+        "spoilers": [
+            {
+                "name": "Pixel Art",
+                "content": "At the end of the level, find the pipe that leads you to a secret."
             }
         ]
     }
