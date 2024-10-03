@@ -4,13 +4,55 @@ import { useState } from "react";
 
 const LevelCard = (props) => {
   const [isSpoiler, setIsSpoiler] = useState(props.spoiler || false);
-  
 
   const click = () => {
     setIsSpoiler(false);
   };
 
-  const difficulty = props.stats ? props.stats.difficulty : -1
+  const getMadeBy = (made_by) => {
+    if (made_by.length === 0) {
+      return <></>;
+    }
+    if (made_by.length === 1) {
+      return getCreatorSection(made_by[0]);
+    }
+    if (made_by.length === 2) {
+      return (
+        <>
+          {getCreatorSection(made_by[0])} & {getCreatorSection(made_by[1])}
+        </>
+      );
+    }
+    const lastCreator = made_by[made_by.length - 1];
+    const otherCreators = made_by.slice(0, -1);
+    return (
+      <>
+        {otherCreators.map((creator, index) => (
+          <span key={index}>
+            {getCreatorSection(creator)}
+            {index < otherCreators.length - 1 ? ", " : " & "}
+          </span>
+        ))}
+        {getCreatorSection(lastCreator)}
+      </>
+    );
+  };
+
+  const getCreatorSection = (creator) => {
+    if (creator.creator_code) {
+      return (
+        <span
+          className="tooltip tooltip-primary"
+          data-tip={creator.creator_code}
+        >
+          {creator.creator_name}
+        </span>
+      );
+    }
+    return <span>{creator.creator_name}</span>;
+  };
+
+  const difficulty = props.stats ? props.stats.difficulty : -1;
 
   if (isSpoiler) {
     return (
@@ -33,12 +75,17 @@ const LevelCard = (props) => {
         <div className="card-body">
           <h2 className="card-title">{props.levelName}</h2>
           <div>
-            <p>Level Code: <span className="font-bold">{formatLevelCode(props.levelCode)}</span></p>
+            <p>
+              Level Code:&nbsp;
+              <a href={`https://smm2.wizul.us/smm2/course/${props.levelCode}`} target="_blank" rel="noreferrer" className="font-bold hover:underline">
+                {formatLevelCode(props.levelCode)}
+              </a>
+            </p>
             {props.made_by && (
               <p>
-                Creator:{" "}
+                Creator:&nbsp;
                 <span className="text-secondary font-bold">
-                  {props.made_by}
+                  {getMadeBy(props.made_by)}
                 </span>
               </p>
             )}
@@ -49,11 +96,20 @@ const LevelCard = (props) => {
             )}
             {difficulty > -1 && (
               <p>
-                <span>Difficulty:&nbsp;
-                  {difficulty === 0 && <span className="text-success font-bold">Easy</span> }
-                  {difficulty === 1 && <span className="text-info font-bold">Normal</span> }
-                  {difficulty === 2 && <span className="text-warning font-bold">Expert</span> }
-                  {difficulty === 3 && <span className="text-error font-bold">Super Expert</span> }
+                <span>
+                  Difficulty:&nbsp;
+                  {difficulty === 0 && (
+                    <span className="text-success font-bold tooltip tooltip-success" data-tip={`${props.stats.clear_rate} (${props.stats.clears}/${props.stats.attempts})`}>Easy</span>
+                  )}
+                  {difficulty === 1 && (
+                    <span className="text-info font-bold tooltip tooltip-info" data-tip={`${props.stats.clear_rate} (${props.stats.clears}/${props.stats.attempts})`}>Normal</span>
+                  )}
+                  {difficulty === 2 && (
+                    <span className="text-warning font-bold tooltip tooltip-warning" data-tip={`${props.stats.clear_rate} (${props.stats.clears}/${props.stats.attempts})`}>Expert</span>
+                  )}
+                  {difficulty === 3 && (
+                    <span className="text-error font-bold tooltip tooltip-error" data-tip={`${props.stats.clear_rate} (${props.stats.clears}/${props.stats.attempts})`}>Super Expert</span>
+                  )}
                 </span>
               </p>
             )}
@@ -79,11 +135,17 @@ const LevelCard = (props) => {
               <div className="stats shadow">
                 <div className="stat place-items-center">
                   <div className="stat-title text-primary font-bold">Likes</div>
-                  <div className="stat-value text-primary">{props.stats.likes}</div>
+                  <div className="stat-value text-primary">
+                    {props.stats.likes}
+                  </div>
                 </div>
                 <div className="stat place-items-center">
-                  <div className="stat-title text-secondary font-bold">Ninjis</div>
-                  <div className="stat-value text-secondary">{props.stats.ninjis}</div>
+                  <div className="stat-title text-secondary font-bold">
+                    Ninjis
+                  </div>
+                  <div className="stat-value text-secondary">
+                    {props.stats.ninjis}
+                  </div>
                 </div>
               </div>
             )}

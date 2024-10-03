@@ -1,0 +1,166 @@
+{
+    "super_world_id": "73e895615b0c75dc_20241002093754781277",
+    "worlds": [
+    {
+      "world_name": "World 1",
+      "courses": [
+        {
+          "levelCode": "5DPRW1CQF",
+          "levelName": "♪YOASOBI - Adventure 「アドベンチャー」♪"
+        },
+        {
+          "levelCode": "B5NM4QSDF",
+          "levelName": "♪ GEMN - Fatale 「【推しの子】 OP2」 ♪"
+        },
+        {
+          "levelCode": "F2BWG7C1G",
+          "levelName": "♪ Dua Lipa - Hallucinate ♪",
+          "optional": true
+        },
+        {
+          "levelCode": "LTS9LTY1G",
+          "levelName": "♪ Yukopi - 強風オールバック ♪"
+        }
+      ]
+    },
+    {
+      "world_name": "World 2",
+      "courses": [
+        {
+          "levelCode": "M4KHW47VF",
+          "levelName": "♪ ABBA - Money, Money, Money ♪"
+        },
+        {
+          "levelCode": "914QY5KWF",
+          "levelName": "♪ Toadette The First ♪"
+        },
+        {
+          "levelCode": "W34RPF4PF",
+          "levelName": "♪ Wrecking Ball - Miley Cyrus ♪",
+          "optional": true
+        },
+        {
+          "levelCode": "WQL46S3PG",
+          "levelName": "♪ Mario Grazes The Roof ♪ #TJ"
+        }
+      ]
+    },
+    {
+      "world_name": "World 3",
+      "courses": [
+        {
+          "levelCode": "82T4TV8QG",
+          "levelName": "♪ Parks and Recreation ♪ v2"
+        },
+        {
+          "levelCode": "45T4NYSKG",
+          "levelName": "♪ Cake By The Ocean - DNCE ♪"
+        },
+        {
+          "levelCode": "00XD3Q1WF",
+          "levelName": "♪ Taylor Swift - Lavender Haze ♪",
+          "optional": true
+        },
+        {
+          "levelCode": "YP56SL3TF",
+          "levelName": "♪ Red - Taylor Swift ♪"
+        }
+      ]
+    },
+    {
+      "world_name": "World 4",
+      "courses": [
+        {
+          "levelCode": "0D8NRX8PF",
+          "levelName": "♪ Meitantei Conan 「名探偵コナン」 ♪"
+        },
+        {
+          "levelCode": "SVMKMSF2G",
+          "levelName": "♪ Love Is an Open Door ♪"
+        },
+        {
+          "levelCode": "VPD9BGS1H",
+          "levelName": "♪ Spiritfarer - End Titles ♪",
+          "optional": true
+        },
+        {
+          "levelCode": "K61QV95SF",
+          "levelName": "♪ シカ部 - シカ色デイズ 「しかのこのこのここしたんたん」♪"
+        }
+      ]
+    },
+    {
+      "world_name": "World 5",
+      "courses": [
+        {
+          "levelCode": "WMKG3B72H",
+          "levelName": "♪ New Soup U Deluxe ♪ #TeamJamp"
+        },
+        {
+          "levelCode": "P2VGRKHDG",
+          "levelName": "♪ ヨルシカ - 晴る (Sunny) ♪"
+        },
+        {
+          "levelCode": "MX723K41G",
+          "levelName": "♪ Stronger - Kelly Clarkson ♪ #TS",
+          "optional": true
+        },
+        {
+          "levelCode": "SL5XR02FF",
+          "levelName": "♪ The Level That Doesn't End ♪"
+        }
+      ]
+    },
+    {
+      "world_name": "World 6",
+      "courses": [
+        {
+          "levelCode": "YRQNB3NWG",
+          "levelName": "♪ Moonlight Densetsu 「ムーンライト伝説」♪"
+        },
+        {
+          "levelCode": "6M6GPY9FG",
+          "levelName": "♪ Lady Gaga - Bad Romance ♪"
+        },
+        {
+          "levelCode": "SJNJCRFHG",
+          "levelName": "♪ Call Me Maybe ♪ #TS #TM",
+          "optional": true
+        },
+        {
+          "levelCode": "P4PMHYWVG",
+          "levelName": "♪ We're All In This Together ♪"
+        }
+      ]
+    },
+    {
+      "world_name": "World 7",
+      "courses": [
+        {
+          "levelCode": "BMH128FFF",
+          "levelName": "♪ iCarly's Theme Song ♪ [Troll]",
+          "optional": true
+        },
+        {
+          "levelCode": "NGLYXB1SF",
+          "levelName": "♪ Happy Birthday ♪ #TM",
+          "optional": true
+        },
+        {
+          "levelCode": "F8C01WVMG",
+          "levelName": "This Level Is On Another World?",
+          "optional": true
+        },
+        {
+          "levelCode": "XGX15PDJF",
+          "levelName": "♪ Time Flows Ever Onward ♪",
+          "optional": true
+        },
+        {
+          "levelCode": "WYVG0Y8HF",
+          "levelName": "Credits"
+        }
+      ]
+    }
+  ]
+}
