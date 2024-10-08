@@ -8,7 +8,7 @@ import SuperWorldLevel from "./modules/SuperWorldLevel";
 import Footer from "./partials/Footer";
 import SuperWorldLandingPage from "./modules/SuperWorldLandingPage";
 import SuperTeamMusicWorld from "./modules/SuperTeamMusicWorld";
-import ScrollToTop from "./modules/ScrollToTop";
+import ScrollToTop from "./partials/ScrollToTop";
 
 function App() {
   return (

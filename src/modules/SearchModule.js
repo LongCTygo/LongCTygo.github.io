@@ -2,7 +2,7 @@ import axios from "axios";
 import React, { useEffect, useState } from "react";
 import { Link } from "react-router-dom";
 import CardNameRow from "../partials/CardNameRow";
-import { Helmet } from "react-helmet";
+import { Helmet } from "react-helmet-async";
 
 const SearchModule = () => {
   const [searchQuery, setSearchQuery] = useState("");
@@ -75,7 +75,7 @@ const SearchModule = () => {
 
   return (
     <div className="flex flex-col items-center p-4">
-      <Helmet>
+      <Helmet prioritizeSeoTags>
         <title>Search Card Database</title>
       </Helmet>
       <h1 className="text-4xl font-bold mb-4">Search Database</h1>

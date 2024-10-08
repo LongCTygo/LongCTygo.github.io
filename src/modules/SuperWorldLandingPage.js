@@ -1,5 +1,4 @@
-import LevelCard from "../partials/LevelCard";
-import { Helmet } from "react-helmet";
+import { Helmet } from "react-helmet-async";
 import WorldInfo from "../partials/WorldInfo";
 
 const SuperWorldLandingPage = () => {
@@ -11,8 +10,9 @@ const SuperWorldLandingPage = () => {
 
   return (
     <div>
-      <Helmet>
+      <Helmet prioritizeSeoTags>
         <title>Super LongCT_'s World</title>
+        <meta name="description" content="A challenging 29-levels Super World containing only music levels in Mario Maker 2, made by LongCT_."></meta>
       </Helmet>
       <div
         className="flex justify-center items-center h-96 bg-gradient-to-tr bg-base-300"

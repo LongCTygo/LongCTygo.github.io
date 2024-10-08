@@ -1,12 +1,9 @@
 import { Link } from "react-router-dom";
-import { Helmet } from "react-helmet";
+import { Helmet } from "react-helmet-async";
 
 const MainPage = () => {
   return (
     <div className="mx-2">
-      <Helmet>
-      <title>LongCT_'s Toolbox</title>
-    </Helmet>
       <p className="text-lg mb-4">
         Hello, welcome to my toolbox. I store all of my tools here.
       </p>

@@ -1,4 +1,4 @@
-import { Helmet } from "react-helmet";
+import { Helmet } from "react-helmet-async";
 import WorldInfo from "../partials/WorldInfo";
 
 const SuperWorldLandingPage = () => {
@@ -10,8 +10,9 @@ const SuperWorldLandingPage = () => {
 
   return (
     <div>
-      <Helmet>
+      <Helmet prioritizeSeoTags>
         <title>Super #TeamMusic World</title>
+        <meta name="description" content="A collaboration between 27 creators, for the biggest musical Super World there is in Mario Maker 2."></meta>
       </Helmet>
       <div
         className="flex justify-center items-center h-96 bg-gradient-to-tr bg-base-300"
