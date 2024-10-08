@@ -354,7 +354,7 @@
                     "levelName": "♪TMW♪ Got Your Money",
                     "made_by": [
                         {
-                            "creator_name": "Sp3ti",
+                            "creator_name": "S3pti",
                             "creator_code": "46K-063-40G"
                         },
                         {
@@ -505,5 +505,9 @@
                 }
             ]
         }
-    ]
+    ],
+    "promo": {
+        "name": "Super LongCT_'s World",
+        "to": "super_world"
+    }
 }

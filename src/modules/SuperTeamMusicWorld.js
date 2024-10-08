@@ -16,7 +16,7 @@ const SuperWorldLandingPage = () => {
       <div
         className="flex justify-center items-center h-96 bg-gradient-to-tr bg-base-300"
         style={{
-          backgroundImage: "url('super_world.jpg')",
+          backgroundImage: "url('super_world_stmw.jpg')",
           backgroundPosition: "center",
           backgroundSize: "cover",
           backgroundRepeat: "no-repeat",

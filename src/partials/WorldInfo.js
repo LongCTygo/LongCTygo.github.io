@@ -1,6 +1,7 @@
 import { useEffect, useState } from "react";
 import LevelCard from "../partials/LevelCard";
 import { formatLevelCode } from "../utilities/helper";
+import { Link } from "react-router-dom";
 
 const WorldInfo = (props) => {
   const [superWorld, setSuperWorld] = useState({ courses: [] });
@@ -8,7 +9,7 @@ const WorldInfo = (props) => {
     () => JSON.parse(localStorage.getItem("shouldCallAPI")) || false
   );
   const [loadingStats, setLoadingStats] = useState(false);
-  const data = require(`../data/super_world/${props.id}.json`)
+  const data = require(`../data/super_world/${props.id}.json`);
 
   useEffect(() => {
     const fetchSuperWorldData = async (super_world_id) => {
@@ -18,7 +19,7 @@ const WorldInfo = (props) => {
           const response = await fetch(
             `https://tgrcode.com/mm2/super_world/${super_world_id}`
           );
-          if (response.ok){
+          if (response.ok) {
             const data = await response.json();
             setSuperWorld(data);
           }
@@ -38,7 +39,9 @@ const WorldInfo = (props) => {
   }, [shouldNotCallAPI, data]);
 
   const getWorldLevelInfo = (code) => {
-    let index = superWorld.courses.findIndex((c) => formatLevelCode(c.course_id) === formatLevelCode(code));
+    let index = superWorld.courses.findIndex(
+      (c) => formatLevelCode(c.course_id) === formatLevelCode(code)
+    );
     if (index === -1) {
       return null;
     }
@@ -51,7 +54,7 @@ const WorldInfo = (props) => {
       difficulty: course.difficulty,
       clear_rate: course.clear_rate_pretty,
       clears: course.clears,
-      attempts: course.attempts
+      attempts: course.attempts,
     };
   };
 
@@ -100,9 +103,21 @@ const WorldInfo = (props) => {
             </div>
           </div>
         ))}
+        {data.promo && (
+          <div className="bg-gradient-to-r from-primary via-secondary to-accent text-base-100 text-center py-4 mt-10 rounded-lg">
+            <h2 className="text-2xl font-bold">
+              Like this Super World? Also check out{" "}
+              <Link className="link" to={`/smm2/${data.promo.to}`}>{data.promo.name}</Link>!
+            </h2>
+            <p>
+              Want a page like this for your own super world? Send me a DM on
+              Twitter or Discord!
+            </p>
+          </div>
+        )}
       </div>
     </>
   );
 };
 
-export default WorldInfo
+export default WorldInfo;
