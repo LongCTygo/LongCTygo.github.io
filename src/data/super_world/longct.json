@@ -162,5 +162,9 @@
         }
       ]
     }
-  ]
+  ],
+  "promo": {
+      "name": "Super #TeamMusic World",
+      "to": "stmw"
+  }
 }
