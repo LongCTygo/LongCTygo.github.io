@@ -144,7 +144,7 @@ const LevelCard = (props) => {
             <div>
               {props.videos
                 ? props.videos.map((video) => (
-                    <a className="link link-primary text-lg tooltip tooltip-primary font-bold" data-tip={`Clear video by ${video.by}`} href={video.url} rel="noreferrer" target="_blank">
+                    <a className="link link-primary text-lg font-bold"href={video.url} rel="noreferrer" target="_blank">
                       {video.type === 0 ? (
                         <FontAwesomeIcon icon={faYoutube} />
                       ) : video.type === 1 ? (

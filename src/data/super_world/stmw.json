@@ -12,6 +12,12 @@
                             "creator_name": "Barnstormя",
                             "creator_code": "M59-FBH-WRG"
                         }
+                    ],
+                    "videos": [
+                        {
+                            "url": "https://youtu.be/6EwSPVs6BCQ",
+                            "type": 0
+                        }
                     ]
                 },
                 {
@@ -21,6 +27,12 @@
                         {
                             "creator_name": "Triiskade",
                             "creator_code": "FQQ-YR1-0FG"
+                        }
+                    ],
+                    "videos": [
+                        {
+                            "url": "https://youtu.be/BgKGZLOalXI",
+                            "type": 0
                         }
                     ]
                 },
@@ -36,6 +48,12 @@
                             "creator_name": "Barnstormя",
                             "creator_code": "M59-FBH-WRG"
                         }
+                    ],
+                    "videos": [
+                        {
+                            "url": "https://youtu.be/2FoAI9sSi2w",
+                            "type": 0
+                        }
                     ]
                 },
                 {
@@ -45,6 +63,12 @@
                         {
                             "creator_name": "Ryl_MM2",
                             "creator_code": "38D-8X0-PPG"
+                        }
+                    ],
+                    "videos": [
+                        {
+                            "url": "https://youtu.be/NnjAQsLOtlA",
+                            "type": 0
                         }
                     ]
                 },
@@ -59,6 +83,12 @@
                         {
                             "creator_name": "Barnstormя",
                             "creator_code": "M59-FBH-WRG"
+                        }
+                    ],
+                    "videos": [
+                        {
+                            "url": "https://youtu.be/6Glahsthlrs",
+                            "type": 0
                         }
                     ]
                 }
@@ -75,6 +105,12 @@
                             "creator_name": "DocJuice",
                             "creator_code": "R0S-GX9-3LG"
                         }
+                    ],
+                    "videos": [
+                        {
+                            "url": "https://youtu.be/hSLguKiHhzg",
+                            "type": 0
+                        }
                     ]
                 },
                 {
@@ -84,6 +120,12 @@
                         {
                             "creator_name": "♪★Miracle★♪",
                             "creator_code": "WKM-71V-X1H"
+                        }
+                    ],
+                    "videos": [
+                        {
+                            "url": "https://youtu.be/-B0O_ZpFC04",
+                            "type": 0
                         }
                     ]
                 },
@@ -95,6 +137,12 @@
                             "creator_name": "Triiskade",
                             "creator_code": "FQQ-YR1-0FG"
                         }
+                    ],
+                    "videos": [
+                        {
+                            "url": "https://youtu.be/GSZpUYduIek",
+                            "type": 0
+                        }
                     ]
                 },
                 {
@@ -105,6 +153,12 @@
                             "creator_name": "Barnstormя",
                             "creator_code": "M59-FBH-WRG"
                         }
+                    ],
+                    "videos": [
+                        {
+                            "url": "https://youtu.be/cKbz6WP8ZTA",
+                            "type": 0
+                        }
                     ]
                 },
                 {
@@ -114,6 +168,12 @@
                         {
                             "creator_name": "Skelthane",
                             "creator_code": "MCC-270-QKF"
+                        }
+                    ],
+                    "videos": [
+                        {
+                            "url": "https://youtu.be/AHDFtVq6BNo",
+                            "type": 0
                         }
                     ]
                 }
@@ -418,8 +478,7 @@
                     "videos": [
                         {
                             "url": "https://youtu.be/IE208MQ0oLc",
-                            "type": 0,
-                            "by": "LongCT_"
+                            "type": 0
                         }
                     ]
                 },
