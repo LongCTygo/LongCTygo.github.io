@@ -98,6 +98,7 @@ const WorldInfo = (props) => {
                   stats={getWorldLevelInfo(course.levelCode)}
                   spoiler={course.spoiler}
                   optional={course.optional}
+                  videos={course.videos}
                 />
               ))}
             </div>

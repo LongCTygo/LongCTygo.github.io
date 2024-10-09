@@ -1,6 +1,9 @@
 import { Link } from "react-router-dom";
 import { formatLevelCode, loadThumbnail } from "../utilities/helper";
 import { useState } from "react";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faVideo } from "@fortawesome/free-solid-svg-icons";
+import { faYoutube, faTwitter, faTwitch } from "@fortawesome/free-brands-svg-icons";
 
 const LevelCard = (props) => {
   const [isSpoiler, setIsSpoiler] = useState(props.spoiler || false);
@@ -77,7 +80,12 @@ const LevelCard = (props) => {
           <div>
             <p>
               Level Code:&nbsp;
-              <a href={`https://smm2.wizul.us/smm2/course/${props.levelCode}`} target="_blank" rel="noreferrer" className="font-bold hover:underline">
+              <a
+                href={`https://smm2.wizul.us/smm2/course/${props.levelCode}`}
+                target="_blank"
+                rel="noreferrer"
+                className="font-bold hover:underline"
+              >
                 {formatLevelCode(props.levelCode)}
               </a>
             </p>
@@ -99,20 +107,57 @@ const LevelCard = (props) => {
                 <span>
                   Difficulty:&nbsp;
                   {difficulty === 0 && (
-                    <span className="text-success font-bold tooltip tooltip-success" data-tip={`${props.stats.clear_rate} (${props.stats.clears}/${props.stats.attempts})`}>Easy</span>
+                    <span
+                      className="text-success font-bold tooltip tooltip-success"
+                      data-tip={`${props.stats.clear_rate} (${props.stats.clears}/${props.stats.attempts})`}
+                    >
+                      Easy
+                    </span>
                   )}
                   {difficulty === 1 && (
-                    <span className="text-info font-bold tooltip tooltip-info" data-tip={`${props.stats.clear_rate} (${props.stats.clears}/${props.stats.attempts})`}>Normal</span>
+                    <span
+                      className="text-info font-bold tooltip tooltip-info"
+                      data-tip={`${props.stats.clear_rate} (${props.stats.clears}/${props.stats.attempts})`}
+                    >
+                      Normal
+                    </span>
                   )}
                   {difficulty === 2 && (
-                    <span className="text-warning font-bold tooltip tooltip-warning" data-tip={`${props.stats.clear_rate} (${props.stats.clears}/${props.stats.attempts})`}>Expert</span>
+                    <span
+                      className="text-warning font-bold tooltip tooltip-warning"
+                      data-tip={`${props.stats.clear_rate} (${props.stats.clears}/${props.stats.attempts})`}
+                    >
+                      Expert
+                    </span>
                   )}
                   {difficulty === 3 && (
-                    <span className="text-error font-bold tooltip tooltip-error" data-tip={`${props.stats.clear_rate} (${props.stats.clears}/${props.stats.attempts})`}>Super Expert</span>
+                    <span
+                      className="text-error font-bold tooltip tooltip-error"
+                      data-tip={`${props.stats.clear_rate} (${props.stats.clears}/${props.stats.attempts})`}
+                    >
+                      Super Expert
+                    </span>
                   )}
                 </span>
               </p>
             )}
+            <div>
+              {props.videos
+                ? props.videos.map((video) => (
+                    <a className="link link-primary text-lg tooltip tooltip-primary font-bold" data-tip={`Clear video by ${video.by}`} href={video.url} rel="noreferrer" target="_blank">
+                      {video.type === 0 ? (
+                        <FontAwesomeIcon icon={faYoutube} />
+                      ) : video.type === 1 ? (
+                        <FontAwesomeIcon icon={faTwitter} />
+                      ) : video.type === 2 ? (
+                        <FontAwesomeIcon icon={faTwitch} />
+                      ) : (
+                        <FontAwesomeIcon icon={faVideo} />
+                      )}
+                    </a>
+                  ))
+                : ""}
+            </div>
           </div>
           <div className="card-actions justify-end mt-auto mb-0">
             {props.optional && (
