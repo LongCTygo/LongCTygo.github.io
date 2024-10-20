@@ -2,6 +2,8 @@ import { useEffect, useState } from "react";
 import LevelCard from "../partials/LevelCard";
 import { formatLevelCode } from "../utilities/helper";
 import { Link } from "react-router-dom";
+import { faYoutube } from "@fortawesome/free-brands-svg-icons";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 
 const WorldInfo = (props) => {
   const [superWorld, setSuperWorld] = useState({ courses: [] });
@@ -104,11 +106,40 @@ const WorldInfo = (props) => {
             </div>
           </div>
         ))}
+        {data.playthroughs && data.playthroughs.length > 0 && (
+          <div className="bg-base-100 p-4 rounded-lg mt-6">
+            <h2 className="text-3xl font-bold mb-4">Playthroughs</h2>
+            <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 lg:grid-cols-8 gap-4">
+              {data.playthroughs.map((playthrough, index) => (
+                <div
+                  key={index}
+                  className="card bg-base-200 shadow-lg p-4 space-y-2 flex flex-col items-center"
+                >
+                  {/* Circular Profile Picture */}
+                  <img
+                    src={playthrough.profile_picture}
+                    alt={`${playthrough.player}'s profile`}
+                    className="rounded-full w-24 h-24 object-cover"
+                  />
+                  <a href={playthrough.video_link} target="_blank" rel="noreferrer" className="text-xl font-semibold mt-2 link link-hover">
+                    {playthrough.player} 
+                    <span className="ml-1">{playthrough.type === 0 && (<FontAwesomeIcon icon={faYoutube}/>)}</span>
+                  </a>
+                  {/* Link as Button */}
+                </div>
+              ))}
+            </div>
+          </div>
+        )}
+
         {data.promo && (
           <div className="bg-gradient-to-r from-primary via-secondary to-accent text-base-100 text-center py-4 mt-10 rounded-lg">
             <h2 className="text-2xl font-bold">
               Like this Super World? Also check out{" "}
-              <Link className="link" to={`/smm2/${data.promo.to}`}>{data.promo.name}</Link>!
+              <Link className="link" to={`/smm2/${data.promo.to}`}>
+                {data.promo.name}
+              </Link>
+              !
             </h2>
             <p>
               Want a page like this for your own super world? Send me a DM on
